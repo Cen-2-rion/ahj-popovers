@@ -1,0 +1,56 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    position: relative;
+    box-sizing: border-box;
+    min-width: 240px;
+    background-color: #eb3636;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 12px;
+    margin: 100px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #d33030;
+    color: white;
+}
+
+.popover-element {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    max-width: 280px;
+    padding: 7px;
+    display: table;
+}
+
+.popover-frame {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.popover-title {
+    background-color: #ebebeb;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.popover-text {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.popover-arrow {
+    position: absolute;
+    left: calc(50% - 10px);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #cccccc;
+}
